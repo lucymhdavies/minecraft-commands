@@ -1,0 +1,27 @@
+/setblock 562 78 611 blue_shulker_box 3 replace {
+	Items: [
+		{
+			id: tripwire_hook,
+			tag: {
+				display: {
+					Name: "TARDIS Key",
+					Lore: [
+						"This is the gateway to everything",
+						"that ever was, or ever can be."
+					]
+				},
+				ench: [
+					{
+						id: 51,
+						lvl: 1
+					}
+				]
+			},
+			Slot: 13,
+			Count: 1
+		},
+	],
+	display: {
+		Name: "TARDIS Key"
+	}
+}

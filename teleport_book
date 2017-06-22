@@ -1,0 +1,12 @@
+/give @p written_book 1 0 {
+	pages: [
+		"[
+			{\"text\":\"\\u25ba \"},
+			{\"text\":\"Map Room\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @p 625 52.07 505 -90 0\"}},
+			{\"text\":\"\\n\\u25ba \"},
+			{\"text\":\"TARDIS\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @p 1544 20 1049 0 0\"}}
+		]"
+	],
+	title:"Teleport Book v0.2.1",
+	author:""
+}
